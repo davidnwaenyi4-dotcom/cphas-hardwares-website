@@ -10,7 +10,7 @@ const PRODUCTS = [
     category: 'Metal Materials',
     price: '₦15,000',
     description: 'High quality steel rods for construction and fabrication',
-    image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=500&h=500&fit=crop'
+    image: 'https://images.unsplash.com/photo-1634142072976-1c7e614b4a29?w=500&h=500&fit=crop'
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const PRODUCTS = [
     category: 'Metal Materials',
     price: '₦8,500',
     description: 'Premium aluminum sheets for various applications',
-    image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=500&h=500&fit=crop'
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=500&fit=crop'
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const PRODUCTS = [
     category: 'Equipment',
     price: '₦45,000',
     description: 'Professional grade welding machines and tools',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop'
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop'
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const PRODUCTS = [
     category: 'Fittings',
     price: '₦3,200',
     description: 'Complete range of hardware fittings and accessories',
-    image: 'https://images.unsplash.com/photo-1578519615848-e41da4d3d5df?w=500&h=500&fit=crop'
+    image: 'https://images.unsplash.com/photo-1587280591945-5a1dc0ae1ab0?w=500&h=500&fit=crop'
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const PRODUCTS = [
     category: 'Pipes',
     price: '₦12,000',
     description: 'Durable iron pipes for plumbing and construction',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop'
+    image: 'https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=500&h=500&fit=crop'
   },
   {
     id: 6,
