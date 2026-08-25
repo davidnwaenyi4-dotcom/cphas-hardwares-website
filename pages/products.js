@@ -9,42 +9,48 @@ const PRODUCTS = [
     name: 'Steel Rods',
     category: 'Metal Materials',
     price: '₦15,000',
-    description: 'High quality steel rods for construction and fabrication'
+    description: 'High quality steel rods for construction and fabrication',
+    image: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=500&h=500&fit=crop'
   },
   {
     id: 2,
     name: 'Aluminum Sheets',
     category: 'Metal Materials',
     price: '₦8,500',
-    description: 'Premium aluminum sheets for various applications'
+    description: 'Premium aluminum sheets for various applications',
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop'
   },
   {
     id: 3,
     name: 'Welding Equipment',
     category: 'Equipment',
     price: '₦45,000',
-    description: 'Professional grade welding machines and tools'
+    description: 'Professional grade welding machines and tools',
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop'
   },
   {
     id: 4,
     name: 'Hardware Fittings',
     category: 'Fittings',
     price: '₦3,200',
-    description: 'Complete range of hardware fittings and accessories'
+    description: 'Complete range of hardware fittings and accessories',
+    image: 'https://images.unsplash.com/photo-1587280591945-5a1dc0ae1ab0?w=500&h=500&fit=crop'
   },
   {
     id: 5,
     name: 'Iron Pipes',
     category: 'Pipes',
     price: '₦12,000',
-    description: 'Durable iron pipes for plumbing and construction'
+    description: 'Durable iron pipes for plumbing and construction',
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop'
   },
   {
     id: 6,
     name: 'Paint & Coatings',
     category: 'Finishing',
     price: '₦5,500',
-    description: 'Industrial grade paints and protective coatings'
+    description: 'Industrial grade paints and protective coatings',
+    image: 'https://images.unsplash.com/photo-1578519615848-e41da4d3d5df?w=500&h=500&fit=crop'
   }
 ]
 
@@ -82,6 +88,24 @@ export default function Products() {
             {filteredProducts.map(product => (
               <ProductCard key={product.id} product={product} />
             ))}
+          </div>
+
+          {/* How to Update Products Section */}
+          <div className="mt-16 bg-blue-50 border-2 border-blue-200 rounded-xl p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">📸 Update Your Product Images</h2>
+            <p className="text-gray-700 mb-4">To replace product images with your own:</p>
+            <div className="bg-white p-6 rounded-lg border border-gray-300 font-mono text-sm">
+              <p className="text-gray-600 mb-4">Edit <span className="text-blue-600 font-bold">pages/products.js</span> and change the image URLs:</p>
+              <div className="bg-gray-100 p-4 rounded overflow-x-auto">
+                <code className="text-gray-800">{`image: 'YOUR_IMAGE_URL_HERE'`}</code>
+              </div>
+              <p className="text-gray-600 mt-4">You can use:</p>
+              <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                <li>Direct image URLs from Unsplash, Pexels, or Pixabay</li>
+                <li>Your own hosted images</li>
+                <li>Cloudinary or similar image hosting services</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
