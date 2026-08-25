@@ -89,24 +89,6 @@ export default function Products() {
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
-
-          {/* How to Update Products Section */}
-          <div className="mt-16 bg-blue-50 border-2 border-blue-200 rounded-xl p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">📸 Update Your Product Images</h2>
-            <p className="text-gray-700 mb-4">To replace product images with your own:</p>
-            <div className="bg-white p-6 rounded-lg border border-gray-300 font-mono text-sm">
-              <p className="text-gray-600 mb-4">Edit <span className="text-blue-600 font-bold">pages/products.js</span> and change the image URLs:</p>
-              <div className="bg-gray-100 p-4 rounded overflow-x-auto">
-                <code className="text-gray-800">{`image: 'YOUR_IMAGE_URL_HERE'`}</code>
-              </div>
-              <p className="text-gray-600 mt-4">You can use:</p>
-              <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
-                <li>Direct image URLs from Unsplash, Pexels, or Pixabay</li>
-                <li>Your own hosted images</li>
-                <li>Cloudinary or similar image hosting services</li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
       <Footer />
