@@ -10,7 +10,7 @@ const PRODUCTS = [
     category: 'Metal Materials',
     price: '₦15,000',
     description: 'High quality steel rods for construction and fabrication',
-    image: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=500&h=500&fit=crop'
+    image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=500&h=500&fit=crop'
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const PRODUCTS = [
     category: 'Metal Materials',
     price: '₦8,500',
     description: 'Premium aluminum sheets for various applications',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop'
+    image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=500&h=500&fit=crop'
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const PRODUCTS = [
     category: 'Fittings',
     price: '₦3,200',
     description: 'Complete range of hardware fittings and accessories',
-    image: 'https://images.unsplash.com/photo-1587280591945-5a1dc0ae1ab0?w=500&h=500&fit=crop'
+    image: 'https://images.unsplash.com/photo-1578519615848-e41da4d3d5df?w=500&h=500&fit=crop'
   },
   {
     id: 5,
